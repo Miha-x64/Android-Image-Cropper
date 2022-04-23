@@ -19,3 +19,15 @@ dependencies {
 apply plugin: 'com.github.dcendents.android-maven'
 
 group = "com.github.mtotschnig.Android-Image-Cropper"
+
+afterEvaluate {
+    publishing {
+        publications {
+            release(MavenPublication) {
+                from components.release
+                groupId = 'com.github.Miha-x64'
+                artifactId = 'Android-Image-Cropper'
+            }
+        }
+    }
+}
