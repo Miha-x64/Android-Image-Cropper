@@ -1,3 +1,7 @@
+### This fork
+
+Fixed publishing: `com.github.Miha-x64:Android-Image-Cropper:1a549983e8`
+
 Android Image Cropper
 =======
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android--Image--Cropper-green.svg?style=true)](https://android-arsenal.com/details/1/3487)
@@ -11,8 +15,6 @@ Android Image Cropper
 
 ## Usage
 *For a working implementation, please have a look at the Sample Project*
-
-[See GitHub Wiki for more info.](https://github.com/ArthurHub/Android-Image-Cropper/wiki)
 
 1. Include the library
 
@@ -118,8 +120,6 @@ Add this line to your Proguard config file
 - Guidelines appearance: Off / Always On / Show on Toch.
 - Cropping window Border line, border corner and guidelines thickness and color.
 - Cropping background color.
-
-For more information, see the [GitHub Wiki](https://github.com/ArthurHub/Android-Image-Cropper/wiki). 
 
 ## Posts
  - [Android cropping image from camera or gallery](http://theartofdev.com/2015/02/15/android-cropping-image-from-camera-or-gallery/)
